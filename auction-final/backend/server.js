@@ -14,6 +14,14 @@ const io = socketio.init(server);
 const adIo = socketio.initAdIo(server, '/socket/adpage');
 const upload = multer({ dest: 'uploads/' });
 
+app.use(cors(
+  {
+    origin:[""],
+    methods:["POST","GET"],
+    credentials:true;
+  }
+));
+
 // Body parser
 app.use(express.json());
 app.use(express.static('public'));
