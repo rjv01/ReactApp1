@@ -1,0 +1,17 @@
+.home {
+  display: flex;
+  background-color: #E2E1B9;
+  background-image: url("../../images/home-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  height: 150vh;
+}
+
+.home__display {
+  display: flex;
+  height: 100%;
+}
+
+

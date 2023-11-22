@@ -1,0 +1,10 @@
+.body {
+    background-image: url("../../images/profile-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    box-shadow: #d9fdff 20px 0px 0px 0px;
+}
