@@ -1,8 +1,11 @@
 {
+  "buildCommand":"cd frontend && npm install && npm run build",
+  "outputDirectory":"frontend/dist",
+  "framework":"react",
   "rewrites":[
     {
       "source":"/backend/(.*)",
-      "dest":"/backend"
+      "dest":"/backend/server.js"
     }
   ]
 }
